@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03e75c6f-1e6d-45fc-817d-5288fe117ae2" name="Changes" comment="First Commit">
+    <list default="true" id="03e75c6f-1e6d-45fc-817d-5288fe117ae2" name="Changes" comment="[Save] 플레이어 움직임 구현 ( 대쉬 남음 )">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SlashHunterTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SlashHunterTest/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
@@ -17,6 +17,9 @@
       <filtered-out-file-type name="TAG" />
       <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
     </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Unity/SlashHunterTest/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -66,7 +69,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662952823851</updated>
-      <workItem from="1662952832673" duration="11281000" />
+      <workItem from="1662952832673" duration="22182000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1662952877502</created>
@@ -75,7 +78,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662952877502</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[Save] 플레이어 움직임 구현 ( 대쉬 남음 )">
+      <created>1662990499526</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1662990499526</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -98,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First Commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="First Commit" />
+    <MESSAGE value="[Save] 플레이어 움직임 구현 ( 대쉬 남음 )" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Save] 플레이어 움직임 구현 ( 대쉬 남음 )" />
   </component>
 </project>
