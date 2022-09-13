@@ -283,7 +283,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   joystick: {fileID: 1294929423}
-  joystickBG: {fileID: 471762524}
+  joystickBg: {fileID: 471762524}
   joystickVec: {x: 0, y: 0}
 --- !u!114 &220931352
 MonoBehaviour:
@@ -1147,8 +1147,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f2f0276e7ccd16e45ae7f9d7109ec973, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  canDash: 0
   joyStickControl: {fileID: 220931351}
   _spriteRenderer: {fileID: 1207054323}
+  _abilities: {fileID: 1585335374}
 --- !u!4 &1043275396
 Transform:
   m_ObjectHideFlags: 0
@@ -1495,6 +1497,7 @@ GameObject:
   - component: {fileID: 1585335372}
   - component: {fileID: 1585335371}
   - component: {fileID: 1585335370}
+  - component: {fileID: 1585335374}
   - component: {fileID: 1585335373}
   m_Layer: 5
   m_Name: DashBtn
@@ -1633,6 +1636,21 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   m_Padding: {x: 0, y: 0, z: 0, w: 0}
   m_Softness: {x: 0, y: 0}
+--- !u!114 &1585335374
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1585335368}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 89df43c98a67610489607f6b8e592a5b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  abilityImage1: {fileID: 1641162803}
+  cooldown1: 2
+  _isCooldown: 0
 --- !u!1 &1641162801
 GameObject:
   m_ObjectHideFlags: 0

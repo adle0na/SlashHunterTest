@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="03e75c6f-1e6d-45fc-817d-5288fe117ae2" name="Changes" comment="[Save] 플레이어 움직임 구현 ( 대쉬 남음 )">
+    <list default="true" id="03e75c6f-1e6d-45fc-817d-5288fe117ae2" name="Changes" comment="[Save] 아직 버튼 쿨타임 작업중">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.SlashHunterTest/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.SlashHunterTest/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/PlayerMovement.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -19,6 +20,7 @@
     </file-type-list>
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock://D:/Unity/SlashHunterTest/Assets/Scenes/SampleScene.unity" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock://D:/Unity/SlashHunterTest/Assets/Scripts/PlayerMovement.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
@@ -34,7 +36,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="app.teamhub.trackedBranches" value="" />
+    <property name="app.teamhub.trackedBranches" value="-1ep00h4/master" />
     <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="vue.rearranger.settings.migration" value="true" />
@@ -69,7 +71,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1662952823851</updated>
-      <workItem from="1662952832673" duration="22182000" />
+      <workItem from="1662952832673" duration="23816000" />
+      <workItem from="1663059298611" duration="6276000" />
     </task>
     <task id="LOCAL-00001" summary="First Commit">
       <created>1662952877502</created>
@@ -85,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1662990499526</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="[Save] 대쉬 기능완료 쿨타임 설정중">
+      <created>1663003702164</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1663003702164</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -109,6 +119,8 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="First Commit" />
     <MESSAGE value="[Save] 플레이어 움직임 구현 ( 대쉬 남음 )" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Save] 플레이어 움직임 구현 ( 대쉬 남음 )" />
+    <MESSAGE value="[Save] 대쉬 기능완료 쿨타임 설정중" />
+    <MESSAGE value="[Save] 아직 버튼 쿨타임 작업중" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Save] 아직 버튼 쿨타임 작업중" />
   </component>
 </project>
